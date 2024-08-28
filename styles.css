@@ -1,16 +1,17 @@
 * {
   font-family: "JetBrains Mono", monospace;
   font-size: 1rem;
+  overflow: hidden;
 }
 
 #screen {
   position: relative;
-  width: 500px;
-  height: 500px;
+  height: 100vh;
+  box-sizing: border-box;
   background-color: green;
 }
 
-#scan {
+#scan, #bezel {
   position: absolute;
   width: 100%;
   height: 100%;
