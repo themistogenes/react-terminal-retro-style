@@ -1,6 +1,7 @@
 * {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 1rem;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  color: white;
   overflow: hidden;
 }
 
@@ -17,4 +18,24 @@
   height: 100%;
   top: 0;
   left: 0;
+  pointer-events: none;
+}
+
+#scan {
+  opacity: 80%;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOs Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Chrome, Edge, Opera, Firefox */
+}
+
+#content {
+  padding: 10vh;
+  color: greenyellow;
+  text-shadow: 1px 1px 2px white;
 }
